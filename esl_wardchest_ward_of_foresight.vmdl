@@ -1,0 +1,448 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+				]
+				bone_cull_type = "None"
+			},
+			
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					
+					{
+						_class = "RenderMeshFile"
+						name = "esl_wardchest_ward_of_foresight"
+						filename = "models/items/wards/esl_wardchest_ward_of_foresight/esl_wardchest_ward_of_foresight_esl_wardchest_ward_of_foresight.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "esl_wardchest_ward_of_foresight_lod1"
+						filename = "models/items/wards/esl_wardchest_ward_of_foresight/esl_wardchest_ward_of_foresight_esl_wardchest_ward_of_foresight_lod11.dmx"
+					},
+				]
+			},
+			
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					
+					{
+						_class = "Attachment"
+						name = "attach_hitloc"
+						ignore_rotation = false
+						parent_bone = "root"
+						relative_origin = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+				]
+			},
+			
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					
+					{
+						_class = "Folder"
+						children = 
+						[
+							
+							{
+								_class = "AnimFile"
+								name = "bindPose"
+								source_filename = "models/items/wards/esl_wardchest_ward_of_foresight/bindPose.dmx"
+								fade_in_time = 0.200000
+								fade_out_time = 0.200000
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							
+							{
+								_class = "AnimFile"
+								name = "ward_idle"
+								source_filename = "models/items/wards/esl_wardchest_ward_of_foresight/ward_idle.dmx"
+								fade_in_time = 0.200000
+								fade_out_time = 0.200000
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								activity_name = "ACT_DOTA_IDLE"
+								activity_weight = 1
+							},
+							
+							{
+								_class = "AnimFile"
+								name = "ward_idle_alt"
+								source_filename = "models/items/wards/esl_wardchest_ward_of_foresight/ward_idle_alt.dmx"
+								fade_in_time = 0.200000
+								fade_out_time = 0.200000
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								activity_name = "ACT_DOTA_IDLE_RARE"
+								activity_weight = 1
+							},
+							
+							{
+								_class = "AnimFile"
+								name = "ward_spawn"
+								source_filename = "models/items/wards/esl_wardchest_ward_of_foresight/ward_spawn.dmx"
+								fade_in_time = 0.200000
+								fade_out_time = 0.200000
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								activity_name = "ACT_DOTA_SPAWN"
+								activity_weight = 1
+							},
+							
+							{
+								_class = "AnimFile"
+								name = "ward_death"
+								source_filename = "models/items/wards/esl_wardchest_ward_of_foresight/ward_death.dmx"
+								fade_in_time = 0.200000
+								fade_out_time = 0.200000
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								activity_name = "ACT_DOTA_DIE"
+								activity_weight = 1
+							},
+							
+							{
+								_class = "AnimFile"
+								name = "portrait_idle"
+								source_filename = "models/items/wards/esl_wardchest_ward_of_foresight/portrait_idle.dmx"
+								fade_in_time = 0.200000
+								fade_out_time = 0.200000
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								activity_name = "ACT_DOTA_CAPTURE"
+								activity_weight = 3
+							},
+							
+							{
+								_class = "AnimFile"
+								name = "portrait_idle_alt"
+								source_filename = "models/items/wards/esl_wardchest_ward_of_foresight/portrait_idle_alt.dmx"
+								fade_in_time = 0.200000
+								fade_out_time = 0.200000
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								activity_name = "ACT_DOTA_CAPTURE"
+								activity_weight = 1
+							},
+						]
+						name = "esl_wardchest_ward_of_foresight"
+					},
+				]
+			},
+			
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					
+					{
+						_class = "HitboxSet"
+						name = "select_high"
+						children = 
+						[
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									0.000000,
+									-18.780000,
+									-22.440000,
+								]
+								hitbox_maxs = 
+								[
+									119.670000,
+									19.690000,
+									14.170000,
+								]
+								name = "0"
+								parent_bone = "root"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+					
+					{
+						_class = "HitboxSet"
+						name = "select_low"
+						children = 
+						[
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									4.380000,
+									-47.500000,
+									-46.580000,
+								]
+								hitbox_maxs = 
+								[
+									115.280000,
+									48.410000,
+									45.560000,
+								]
+								name = "root"
+								parent_bone = "root"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					
+					{
+						_class = "Bone"
+						name = "root"
+						origin = 
+						[
+							-0.000000,
+							-0.000000,
+							0.000000,
+						]
+						angles = 
+						[
+							-85.580570,
+							-89.999910,
+							89.999860,
+						]
+						do_not_discard = true
+						children = 
+						[
+							
+							{
+								_class = "Bone"
+								name = "eye"
+								origin = 
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								angles = 
+								[
+									-0.000033,
+									94.419400,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "r_topCap_1_01"
+								origin = 
+								[
+									64.882330,
+									-4.630336,
+									0.000001,
+								]
+								angles = 
+								[
+									-0.000000,
+									94.419370,
+									-180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "l_topCap_1_01"
+								origin = 
+								[
+									66.009360,
+									11.966590,
+									0.000001,
+								]
+								angles = 
+								[
+									0.000000,
+									-0.000003,
+									0.000005,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "r_lowEye_1_01"
+								origin = 
+								[
+									39.219710,
+									-11.511510,
+									-4.481466,
+								]
+								angles = 
+								[
+									0.000000,
+									-0.000003,
+									0.000005,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "r_lowEyeLid_1_01"
+								origin = 
+								[
+									39.219710,
+									-11.511510,
+									-4.481466,
+								]
+								angles = 
+								[
+									0.000000,
+									-0.000003,
+									0.000005,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "r_lowEyeLid_1_02"
+								origin = 
+								[
+									39.219710,
+									-11.511510,
+									-4.481466,
+								]
+								angles = 
+								[
+									0.000000,
+									-0.000003,
+									0.000005,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "l_lowEye_1_01"
+								origin = 
+								[
+									30.545430,
+									14.857560,
+									-8.510939,
+								]
+								angles = 
+								[
+									0.000000,
+									-0.000003,
+									0.000005,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "l_lowEyeLid_1_01"
+								origin = 
+								[
+									30.545430,
+									14.857560,
+									-8.510939,
+								]
+								angles = 
+								[
+									0.000000,
+									-0.000003,
+									0.000005,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "l_lowEyeLid_1_02"
+								origin = 
+								[
+									30.545430,
+									14.857560,
+									-8.510939,
+								]
+								angles = 
+								[
+									0.000000,
+									-0.000003,
+									0.000005,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "capEye_1_01"
+								origin = 
+								[
+									68.726210,
+									7.086282,
+									-12.952960,
+								]
+								angles = 
+								[
+									0.000000,
+									-0.000003,
+									0.000005,
+								]
+								do_not_discard = true
+							},
+						]
+					},
+				]
+			},
+		]
+	}
+}
